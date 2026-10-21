@@ -1,2 +1,3 @@
 #!/bin/bash
-LC_ALL=C sudo netstat -lntup
+sudo netstat -lntup
+sudo netstat -lnux
