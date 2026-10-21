@@ -1,2 +1,4 @@
-#!/bin/bash
-ss -lntup
+#!/usr/bin/env bash
+# A script that displays listening ports with PID and program name
+
+sudo netstat -napl
