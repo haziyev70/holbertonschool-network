@@ -1,1 +1,2 @@
-Holberton School - Networking basics_0
+# Basics 0 - Network
+This folder contains scripts for network exploration (listening ports, ping, etc.).
