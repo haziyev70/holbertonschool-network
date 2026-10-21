@@ -2,3 +2,5 @@
 # A script that displays listening ports with PID and program name
 ss -lntup
 ss -l -x
+#!/usr/bin/env bash
+netstat -nap
