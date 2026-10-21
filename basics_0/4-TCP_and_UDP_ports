@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo netstat -46 -lntup 2>/dev/null || netstat -lntup 2>/dev/null
+ss -lntup

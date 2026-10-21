@@ -1,1 +1,1 @@
-Networking basics_0 - OSI model and types of networks
+Holberton School - Networking basics_0
