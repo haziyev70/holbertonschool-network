@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
 # Displays all active IPv4 IPs on the machine
 
-hostname -I | tr ' ' '\n'
+for ip in $(hostname -I); do
+    echo "$ip"
+done
+if ! hostname -I | grep -q "127.0.0.1"; then
+    echo "127.0.0.1"
+fi
