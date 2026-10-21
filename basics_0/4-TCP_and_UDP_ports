@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo netstat -lntup
+LC_ALL=C sudo netstat -lntup
