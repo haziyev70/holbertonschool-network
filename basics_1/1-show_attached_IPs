@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Displays all active IPv4 IPs on the machine
 
-ip -4 addr show | grep -o "inet [0-9.]*" | awk '{print $2}'
+ip -o -4 addr show | awk '{print $4}' | cut -d/ -f1
