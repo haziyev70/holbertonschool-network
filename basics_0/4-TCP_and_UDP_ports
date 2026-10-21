@@ -1,0 +1,3 @@
+#!/bin/bash
+# Displays listening ports, PID, and program name
+sudo netstat -lntup
